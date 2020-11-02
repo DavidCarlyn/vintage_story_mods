@@ -1,14 +1,17 @@
-﻿using Vintagestory.API.Client;
+﻿using System;
+
+using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.Server;
 
-namespace VintageStoryMods
+namespace CarlynBlocks
 {
-	public class VintageStoryModTest : ModSystem
+	public class CarlynBlocksMod : ModSystem
 	{
 		public override void Start(ICoreAPI api)
 		{
-			api.RegisterBlockBehaviorClass(InstaTNTBehavior.NAME, typeof(InstaTNTBehavior));
+			Console.WriteLine("Mod Loaded!");
+			//api.RegisterBlockBehaviorClass(GoldBlockBehavior.NAME, typeof(GoldBlockBehavior));
 		}
 		
 		public override void StartClientSide(ICoreClientAPI api)
