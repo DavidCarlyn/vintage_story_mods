@@ -1,0 +1,65 @@
+{
+    "code": "dragon_item",
+    "class": "ItemCreature",
+    "maxstacksize": 64,
+    "variantgroups": [
+      {
+        "code": "type",
+        "states": [ "dragon" ]
+      }
+    ],
+    "shape": {
+      "base": "entity/land/dragon"
+    },
+    "texture": { "base": "game:block/wood/planks/birch1" },
+    "creativeinventory": {
+      "general": [ "*" ],
+      "items": [ "*" ],
+      "creatures": [ "*" ]
+    },
+    "materialDensity": 600,
+    "guiTransform": {
+      "rotation": {
+        "x": 0,
+        "y": -90,
+        "z": -180
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.25,
+        "z": 0.5
+      },
+      "scale": 2
+    },
+    "fpHandTransform": {
+      "rotation": {
+        "x": 0,
+        "y": -90,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15,
+        "z": 0.5
+      },
+      "scale": 2
+    },
+    "groundTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": -90,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15,
+        "z": 0.5
+      },
+      "scale": 2
+    }
+  }
